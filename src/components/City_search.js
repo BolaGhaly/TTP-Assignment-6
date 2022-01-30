@@ -43,7 +43,7 @@ function City_search() {
         </form>
         <p>You entered: {city}</p>
       </div>
-      <div className="all_cities_container pt-3 row d-flex justify-content-center align-items-center">
+      <div className="all_cities_container pt-3 row d-flex justify-content-center align-items-center mb-4">
         {cityZipCodes.map((e) => {
           return (
             <p className="cities-item my-2 mx-4 d-flex justify-content-center align-items-center">
