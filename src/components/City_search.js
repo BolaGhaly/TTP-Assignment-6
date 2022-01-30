@@ -43,9 +43,9 @@ function City_search() {
         </form>
         <p>You entered: {city}</p>
       </div>
-      <div className="all_cities_container">
+      <div className="all_cities_container pt-3 row d-flex justify-content-center align-items-center">
         {cityZipCodes.map((e) => {
-          return <p className="cities-item">{e}</p>;
+          return <p className="cities-item my-2 mx-4 d-flex justify-content-center align-items-center">{e}</p>;
         })}
       </div>
     </>
