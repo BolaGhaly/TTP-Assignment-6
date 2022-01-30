@@ -25,14 +25,14 @@ function City_search() {
   };
 
   return (
-    <>
-      <div className="h1-container">
+    <div className="overflow-hidden">
+      <div className="h1-container ">
         <h1>Search By City</h1>
         <Link to="/">
-          <button className="home-button">Go Back to Home Page</button>
+          <button className="home-button ">Go Back to Home Page</button>
         </Link>
       </div>
-      <div className="city-div">
+      <div className="city-div ">
         <form onSubmit={submitForm}>
           <label htmlFor="city">City: </label>
           <input
@@ -45,10 +45,14 @@ function City_search() {
       </div>
       <div className="all_cities_container pt-3 row d-flex justify-content-center align-items-center">
         {cityZipCodes.map((e) => {
-          return <p className="cities-item my-2 mx-4 d-flex justify-content-center align-items-center">{e}</p>;
+          return (
+            <p className="cities-item my-2 mx-4 d-flex justify-content-center align-items-center">
+              {e}
+            </p>
+          );
         })}
       </div>
-    </>
+    </div>
   );
 }
 

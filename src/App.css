@@ -1,10 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
 /*-------------------------- Used by all of the js files ----------------------------*/
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
 
 body {
   background-color: rgb(34, 34, 34);
-  min-height: 100vh;
   font-family: "Poppins", sans-serif;
 }
 
@@ -20,7 +30,7 @@ ul {
 }
 
 button {
-  border: 5px solid rgb(7, 168, 218);
+  border: 5px solid #07a8da;
 }
 
 /* Remove Arrows/Spinners -> Chrome, Safari, Edge, Opera */
@@ -61,6 +71,7 @@ form input {
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1px;
+  overflow: hidden;
 }
 
 .home-button {

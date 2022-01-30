@@ -24,7 +24,7 @@ function Zip_search() {
   };
 
   return (
-    <>
+    <div>
       <div className="h1-container">
         <h1>Search By Zip Code</h1>
         <Link to="/">
@@ -84,7 +84,7 @@ function Zip_search() {
           // return <p className="zip-item">{e}</p>;
         })} */}
       </div>
-    </>
+    </div>
   );
 }
 
