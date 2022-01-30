@@ -43,10 +43,10 @@ function Zip_search() {
         </form>
         <p>You entered: {zipCode}</p>
       </div>
-      <div className="zipCodeInfo_container">
+      <div className="zipCodeInfo_container row d-flex justify-content-center">
         {zipCodeInfo.map((element) => {
           return (
-            <div className="card">
+            <div className="card px-0">
               <h5 className="card-title text-center">{element.LocationText}</h5>
               <p className="card-text">
                 <ul>
