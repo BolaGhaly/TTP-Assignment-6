@@ -121,13 +121,12 @@ form input {
   width: 110px;
   text-align: center;
   padding: 10px 0;
-  margin: 0 0 30px 25px;
 }
 
 /*------------------------------------- Zip_search.js styling ------------------------------*/
 .card {
   margin: 0 25px 50px 25px;
-  max-width: 320px;
+  max-width: 280px;
   background-color: rgb(17, 96, 121);
   border: 2px solid whitesmoke;
   border-radius: 0;
