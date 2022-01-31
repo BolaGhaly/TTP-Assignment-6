@@ -46,9 +46,9 @@ function Zip_search() {
       <div className="zipCodeInfo_container row d-flex justify-content-center">
         {zipCodeInfo.map((element) => {
           return (
-            <div className="card px-0">
+            <div className="card px-0" key={element.RecordNumber}>
               <h5 className="card-title text-center">{element.LocationText}</h5>
-              <p className="card-text">
+              <div className="card-text">
                 <ul>
                   <li>
                     City:
@@ -73,16 +73,10 @@ function Zip_search() {
                     {element.TotalWages}
                   </li>
                 </ul>
-              </p>
+              </div>
             </div>
           );
         })}
-        {/* <p>{zipCodeInfo[0].LocationText}</p> */}
-        {console.log(zipCodeInfo)}
-        {/* {zipCodeInfo.map((e) => {
-          // console.log(e);
-          // return <p className="zip-item">{e}</p>;
-        })} */}
       </div>
     </div>
   );
