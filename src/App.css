@@ -59,6 +59,7 @@ form label {
 
 form input {
   border: 2px solid rgb(7, 168, 218);
+  padding-left: 8px;
 }
 
 .h1-container {
@@ -181,7 +182,7 @@ form input {
 @media screen and (max-width: 468px) {
   .buttons-container {
     flex-direction: column;
-    height: calc(100vh - 117px) !important;
+    max-height: calc(100vh - 117px) !important;
   }
 }
 

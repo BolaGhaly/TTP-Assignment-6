@@ -37,7 +37,7 @@ function Zip_search() {
           <input
             type="number"
             id="zipCode"
-            placeholder="Try 10016"
+            placeholder="Ex: 10016"
             onChange={(event) => handleChange(event.target.value)}
           />
         </form>

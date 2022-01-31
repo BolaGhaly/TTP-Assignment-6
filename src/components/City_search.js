@@ -38,6 +38,7 @@ function City_search() {
           <input
             type="text"
             id="city"
+            placeholder="Ex: Brooklyn"
             onChange={(event) => handleChange(event.target.value.toUpperCase())}
           />
         </form>
