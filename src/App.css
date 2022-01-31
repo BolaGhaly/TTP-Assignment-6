@@ -90,7 +90,7 @@ form input {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 150px);
+  height: calc(100vh - 170px);
   width: 100%;
   flex-direction: row;
 }
@@ -176,7 +176,7 @@ form input {
 
 @media screen and (max-width: 300px) {
   .buttons-container {
-    height: calc(100vh - 156px) !important;
+    height: calc(100vh - 220px) !important;
   }
   .buttons-container button {
     padding: 5px;
