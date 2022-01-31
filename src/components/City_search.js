@@ -32,7 +32,7 @@ function City_search() {
           <button className="home-button ">Go Back to Home Page</button>
         </Link>
       </div>
-      <div className="city-div ">
+      <div className="city-div">
         <form onSubmit={submitForm}>
           <label htmlFor="city">City: </label>
           <input
